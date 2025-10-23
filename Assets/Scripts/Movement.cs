@@ -6,10 +6,10 @@ using Random = UnityEngine.Random;
 public class Movement : MonoBehaviour
 {
 
-    int decisionTimer = 120;
+    int decisionTimer;
     int deathTimer;
-    int reincarnationTimer; 
-    private enum Actions {Walking, Standing, Waving};
+    int killTimer;
+    private enum Actions {Walking, Standing, Waving, Dying};
     private Actions currentAction;
 
     private float decision;
@@ -23,9 +23,10 @@ public class Movement : MonoBehaviour
     public RuntimeAnimatorController flubIdle;
     public RuntimeAnimatorController flubWalk;
     public RuntimeAnimatorController flubWave;
+    public RuntimeAnimatorController flubDie;
 
-    public GameObject flubBaby;
-    GameObject flub;
+    //public GameObject flubBaby;
+    //GameObject flub;
 
     private int walkSpeed = 1;
 
@@ -40,10 +41,12 @@ public class Movement : MonoBehaviour
         Sprite = gameObject.GetComponent<Animator>();
 
         //deathTimer = Random.Range(40000, 70000);
-        deathTimer = 5;
+        //deathTimer = 20;
 
-        //reincarnationTimer = Random.Range(10000, 15000);
-        reincarnationTimer = 180;
+        decisionTimer = Random.Range(100, 700);
+        //deathTimer = 60;
+        //killTimer = 300;
+
 
         //Debug.Log(Sprite);
     }
@@ -52,16 +55,13 @@ public class Movement : MonoBehaviour
     void Update()
     {
         //constantly counts down to a new position and to death
+        //deathTimer--;
         decisionTimer--;
-
-        //shuffles pos constantly
-        //randomMove = Random.Range(-100, 50);
-        //Debug.Log(randomMove);
 
             if (decisionTimer < 0)
             {
 
-            decision = Random.Range(0, Enum.GetNames(typeof(Actions)).Length - 1);
+            decision = Random.Range(0, Enum.GetNames(typeof(Actions)).Length - 2);
             //Debug.Log(decision);
 
             if (decision == 0)
@@ -73,8 +73,13 @@ public class Movement : MonoBehaviour
                 currentAction = Actions.Walking;
             }
 
+            if(deathTimer < 0)
+            {
+                currentAction = Actions.Dying;
+            }
+
             //reset decision timer
-            decisionTimer = Random.Range(100, 500);
+            decisionTimer = Random.Range(100, 700);
         }
 
 
@@ -125,6 +130,17 @@ public class Movement : MonoBehaviour
 
                     this.GetComponent<Animator>().runtimeAnimatorController = flubWave as RuntimeAnimatorController;
 
+                }
+                break;
+
+            case Actions.Dying:
+                {
+                    this.GetComponent<Animator>().runtimeAnimatorController = flubDie as RuntimeAnimatorController;
+                    killTimer--;
+                    if (killTimer < 0)
+                    {
+                        Destroy(gameObject);
+                    }
                 }
                 break;
         }

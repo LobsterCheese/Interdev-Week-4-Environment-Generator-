@@ -1,0 +1,491 @@
+fileFormatVersion: 2
+guid: 0579415c03a421443a8424b0e3aa0a10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7135136048390586212
+    second: Flub_Death_Revised_0
+  - first:
+      213: -8946902291974989049
+    second: Flub_Death_Revised_1
+  - first:
+      213: 1788594571673160780
+    second: Flub_Death_Revised_2
+  - first:
+      213: -6828256952196405214
+    second: Flub_Death_Revised_3
+  - first:
+      213: -4674619443513185162
+    second: Flub_Death_Revised_4
+  - first:
+      213: -9028225768065447346
+    second: Flub_Death_Revised_5
+  - first:
+      213: -7529700833975261080
+    second: Flub_Death_Revised_6
+  - first:
+      213: -752539927803712283
+    second: Flub_Death_Revised_7
+  - first:
+      213: 186218857440498229
+    second: Flub_Death_Revised_8
+  - first:
+      213: -8713614826412777444
+    second: Flub_Death_Revised_9
+  - first:
+      213: 3278690119119079629
+    second: Flub_Death_Revised_10
+  - first:
+      213: 2808973149463660127
+    second: Flub_Death_Revised_11
+  - first:
+      213: 8017464896383788745
+    second: Flub_Death_Revised_12
+  - first:
+      213: 1155026997140404779
+    second: Flub_Death_Revised_13
+  - first:
+      213: -3728980450516856976
+    second: Flub_Death_Revised_14
+  - first:
+      213: -5229233327882600485
+    second: Flub_Death_Revised_15
+  - first:
+      213: 5672827420517295530
+    second: Flub_Death_Revised_16
+  - first:
+      213: 5812937982488474638
+    second: Flub_Death_Revised_17
+  - first:
+      213: -2298338583638128246
+    second: Flub_Death_Revised_18
+  - first:
+      213: 7183450332367955471
+    second: Flub_Death_Revised_19
+  - first:
+      213: -5316259068921511912
+    second: Flub_Death_Revised_20
+  - first:
+      213: -6055217579764257131
+    second: Flub_Death_Revised_21
+  - first:
+      213: 9072955751109469435
+    second: Flub_Death_Revised_22
+  - first:
+      213: 2275889544148827773
+    second: Flub_Death_Revised_23
+  - first:
+      213: 8485843684457826524
+    second: Flub_Death_Revised_24
+  - first:
+      213: -7040079520255052939
+    second: Flub_Death_Revised_25
+  - first:
+      213: -6968627649075688274
+    second: Flub_Death_Revised_26
+  - first:
+      213: -7172560436766157538
+    second: Flub_Death_Revised_27
+  - first:
+      213: 9095347209123031817
+    second: Flub_Death_Revised_28
+  - first:
+      213: 5749359208422436246
+    second: Flub_Death_Revised_29
+  - first:
+      213: -6347293509173349985
+    second: Flub_Death_Revised_30
+  - first:
+      213: 8647919568369137794
+    second: Flub_Death_Revised_31
+  - first:
+      213: -2070124483789980841
+    second: Flub_Death_Revised_32
+  - first:
+      213: 3410856008183786346
+    second: Flub_Death_Revised_33
+  - first:
+      213: -6072668670148580570
+    second: Flub_Death_Revised_34
+  - first:
+      213: 4044884813097175141
+    second: Flub_Death_Revised_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flub_Death_Revised_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90489b4197eafc90800000000000000
+      internalID: -7135136048390586212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flub_Death_Revised_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bd3b6a4c736d380800000000000000
+      internalID: -8946902291974989049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flub_Death_Revised_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c45cb594d52d810800000000000000
+      internalID: 1788594571673160780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flub_Death_Revised_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228ed39ca782d31a0800000000000000
+      internalID: -6828256952196405214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flub_Death_Revised_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c2341226a602fb0800000000000000
+      internalID: -4674619443513185162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flub_Death_Revised_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a4e6e5f7c45b280800000000000000
+      internalID: -9028225768065447346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flub_Death_Revised_6
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86821fd4cf0218790800000000000000
+      internalID: -7529700833975261080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flub_Death_Revised_7
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec26fb3ce07e85f0800000000000000
+      internalID: -752539927803712283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flub_Death_Revised_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53258307015959200800000000000000
+      internalID: 186218857440498229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flub_Death_Revised_9
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10e61a6b75031780800000000000000
+      internalID: -8713614826412777444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flub_Death_Revised_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc80da6ca4f308d20800000000000000
+      internalID: 3278690119119079629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e3031a4be105aca47a950a0afcf364e2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Flub_Death_Revised_0: -7135136048390586212
+      Flub_Death_Revised_1: -8946902291974989049
+      Flub_Death_Revised_10: 3278690119119079629
+      Flub_Death_Revised_2: 1788594571673160780
+      Flub_Death_Revised_3: -6828256952196405214
+      Flub_Death_Revised_4: -4674619443513185162
+      Flub_Death_Revised_5: -9028225768065447346
+      Flub_Death_Revised_6: -7529700833975261080
+      Flub_Death_Revised_7: -752539927803712283
+      Flub_Death_Revised_8: 186218857440498229
+      Flub_Death_Revised_9: -8713614826412777444
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
