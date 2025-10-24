@@ -4,8 +4,10 @@ public class FlubSpawner : MonoBehaviour
 {
 
     public GameObject flubBaby;
+    public GameObject birdAngel;
     public GameObject GOD;
     int birthTimer = 10000;
+    int birdTimer = 2000;
     int flubAmount;
     int numberOfGOD;
 
@@ -23,6 +25,13 @@ public class FlubSpawner : MonoBehaviour
         int randY = Random.Range(-2, 2);
         //constantly counts down to new Flub
         birthTimer--;
+        birdTimer--;
+
+        if (birdTimer <= 0)
+        {
+            birdTimer = 2000;
+            Instantiate(birdAngel, new Vector3(randX, randY, 0), Quaternion.identity);
+        }
 
         if(birthTimer <= 0 )
         {
@@ -31,7 +40,7 @@ public class FlubSpawner : MonoBehaviour
             flubAmount = GameObject.FindGameObjectsWithTag("Flub").Length;
         }
 
-        if(flubAmount > 8)
+        if(flubAmount > 6)
         {
             numberOfGOD = GameObject.FindGameObjectsWithTag("GOD").Length;
             if (numberOfGOD < 1)

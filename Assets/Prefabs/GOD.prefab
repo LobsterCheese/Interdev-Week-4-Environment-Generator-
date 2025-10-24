@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -3864951385545561779}
   - component: {fileID: -7660914033377988965}
   - component: {fileID: 1886893622323989529}
+  - component: {fileID: 6020801393564256708}
   m_Layer: 0
   m_Name: GOD
   m_TagString: GOD
@@ -175,4 +176,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c084e902df621bb48baff0039a3c03e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GODDANCE: {fileID: 9100000, guid: 79e0dc781d808d7468eba9c5d6d7eb46, type: 2}
+  GODIDLE: {fileID: 0}
   HOLDING: {fileID: 6097408000335064896, guid: a86cbc4839b029548b8723587ee7ddba, type: 3}
+--- !u!95 &6020801393564256708
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5930214252663346037}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -8,6 +8,11 @@ public class GOD : MonoBehaviour
     private bool RAPTURE = false;
 
     private SpriteRenderer SPRITER;
+    public RuntimeAnimatorController GODDANCE;
+    private bool DANCE = false;
+    public RuntimeAnimatorController GODIDLE;
+
+    private int DANCETIMER = 500;
 
     private Vector2 HEAVEN; 
 
@@ -25,7 +30,21 @@ public class GOD : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if(RAPTURE)
+        {
+            this.GetComponent<Animator>().runtimeAnimatorController = GODDANCE as RuntimeAnimatorController;
+            if(DANCETIMER > 0)
+            {
+                DANCE = true;
+                RB2D.linearVelocity = new Vector2(0, 0);
+            }
+            else
+            {
+                DANCE = false;
+            }
+            DANCETIMER--;
+        }
+        Debug.Log(DANCE);
     }
 
     private void FixedUpdate()
@@ -36,7 +55,10 @@ public class GOD : MonoBehaviour
         }
         else
         {
-            RB2D.AddForce(transform.up * GODSPEED);
+            if (!DANCE)
+            {
+                RB2D.AddForce(transform.up * GODSPEED);
+            }
         }
     }
 
@@ -45,8 +67,11 @@ public class GOD : MonoBehaviour
         if (other.tag == "Flub")
         {
             RB2D.linearVelocity = new Vector2(0, 0);
-            Destroy(other.gameObject);
-            RAPTURE = true;
+            if (!RAPTURE)
+            {
+                Destroy(other.gameObject);
+                RAPTURE = true;
+            }
             SPRITER.sprite = HOLDING;
         }
 

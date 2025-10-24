@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6351834556756986741}
   - component: {fileID: 7391121134468791759}
   - component: {fileID: 6601486254898381795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flub
   m_TagString: Flub
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flubIdle: {fileID: 9100000, guid: e48659e7bba9dff41890421bf4c18e1f, type: 2}
   flubWalk: {fileID: 9100000, guid: 859a629fb23996c4d9644e5be662f90f, type: 2}
-  flubWave: {fileID: 9100000, guid: 7f7ae75c203ac7846acac09a459c11d7, type: 2}
+  flubWave: {fileID: 9100000, guid: 7361c4f3e753fd94da49984bf7670a78, type: 2}
   flubDie: {fileID: 9100000, guid: a50b0ba91d162104482f4ddb9c748136, type: 2}
 --- !u!50 &7391121134468791759
 Rigidbody2D:
